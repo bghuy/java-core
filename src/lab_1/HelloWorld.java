@@ -1,6 +1,6 @@
-package Hello_world;
+package lab_1;
 
-public class Hello_world {
+public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("hello from java");
 	}
