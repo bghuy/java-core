@@ -1,5 +1,7 @@
 package lab_1;
 
+import java.util.Scanner;
+
 public class Variable {
 	public static void main(String[] args) {
 		int huy = 22;
@@ -21,5 +23,7 @@ public class Variable {
 		System.out.printf("My name is %s, age=%d \n", name, age);
 		System.out.print("My name is " + name + ", age=" + age + "\n");
 		System.out.println("My name is " + name + ", age=" + age);
+		// input from keyboard
+		Scanner scanner = new Scanner(System.in);
 	}
 }
